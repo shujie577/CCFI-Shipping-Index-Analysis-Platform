@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Django
+db.sqlite3
+db.sqlite3-journal
+*.log
+local_settings.py
+media/
+staticfiles/
+
+# 环境变量与密钥（勿上传 API Key）
+.env
+.env.*
+!.env.example
+
+# Node / Vue / Vite
+node_modules/
+dist/
+.vite/
+
+# IDE（个人本地配置，不必上传）
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# 操作系统
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# 测试与覆盖率
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
